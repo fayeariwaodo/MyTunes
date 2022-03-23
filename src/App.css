@@ -1,0 +1,193 @@
+.background {
+  background-image: url(./Image/showcase.jpeg);
+  height: 587px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+* {
+  margin: 0px;
+  padding: 0%;
+}
+/* .background{
+     color: white;
+     margin: aut;  
+     
+ } */
+.Head {
+  color: white;
+  text-align: center;
+}
+.best,
+.music {
+  text-align: center;
+  /* border-style: solid; */
+  padding: 2%;
+}
+
+/* Music Styling */
+.icon {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 5%;
+ 
+}
+.moc, .mock2{
+  width: 100%;
+}
+
+.second {
+  background-color: rgb(37, 37, 41);
+  /* height: 500px; */
+}
+.fa {
+  padding-left: 10px;
+}
+
+.zero {
+  color: white;
+  /* padding: 2%; */
+  text-align: center;
+}
+.songs {
+  margin-top: 20px;
+  padding-left: 2%;
+}
+
+.btn {
+  background-color: rgb(211, 7, 27);
+  color: white;
+  height: 60px;
+  width: 15%;
+  margin-top: 30px;
+  border-style: none;
+}
+
+.orange {
+  /* margin-top: 30px; */
+  padding: 2%;
+}
+
+/* TV STYLING */
+.tv {
+  text-align: center;
+  margin-top: 20px;
+  /* padding: 2%; */
+}
+.more {
+  height: 60px;
+  width: 8%;
+  border-style: none;
+  background-color: rgb(16, 48, 99);
+  color: white;
+  /* padding: 2%; */
+}
+.btnmore {
+  padding: 1%;
+}
+.para {
+  padding: 2%;
+  font-size: 1.3rem;
+}
+.contain {
+  background-color: rgb(244, 244, 244);
+}
+
+/* Styling for Entertainment */
+
+.entertain {
+  background-image: url(./Image/section-bg.jpeg);
+  background-size: cover;
+  height: 610px;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+.ent {
+  color: white;
+  padding: 5%;
+}
+.loremhead {
+  text-align: center;
+}
+
+.lorem {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+/* Gifts Cards STYLING */
+.parent {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+.imgcard {
+  width: 100%;
+}
+
+.headgift {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.paragift {
+  margin-top: 20px;
+  width: 80%;
+}
+hr {
+
+ margin-top: 20px;
+  border-style: inset;
+ width: 90%;
+}
+
+.right{
+  text-decoration: none;
+  color: black;
+}
+
+.link{
+font-size: 900;
+}
+.mock2{
+  padding-bottom: 5%;
+}
+
+/* FOOTER STYLING */
+
+.footer{
+  background-color: rgb(37,37,41);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  cursor: pointer;
+
+}
+hr{
+  width: 80%;
+  
+}
+li{
+  list-style: none;
+  
+}
+
+/* .footlist{
+  color: white;
+} */
+.copy{
+  background-color: rgb(51,51,51);
+  text-align: center;
+  color: white;
+}
+.height{
+padding: 1rem;
+}
