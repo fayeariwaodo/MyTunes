@@ -12,7 +12,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
-      <Tunesnav/>
+    
       <Mytunes />
       <Music/>
       <Movie/>

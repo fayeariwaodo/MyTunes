@@ -1,6 +1,6 @@
 .background {
   background-image: url(./Image/showcase.jpeg);
-  height: 587px;
+  height: 560px;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
 .entertain {
   background-image: url(./Image/section-bg.jpeg);
   background-size: cover;
-  height: 610px;
+  height: 400px;
   display: flex;
   align-items: center;
   padding: 2%;
@@ -190,4 +190,15 @@ li{
 }
 .height{
 padding: 1rem;
+}
+
+
+/* COMPONENT STYLING */
+.con{
+ text-align:  center;
+ background-color: whitesmoke;;
+}
+.conm{
+  background-color: rgb(51,5,5);
+  color: white;
 }

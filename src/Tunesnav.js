@@ -6,22 +6,25 @@ import "./Tunesnav.css";
 const Tunesnav = () => {
   return (
     <div className="navbaar">
-      <Navbar bg="primary" variant="dark">
-        <Container>
+    <Navbar bg="" expand="lg" className="mv w-100 m-auto">
+    <Container>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-          {/* <Link className="nav">Navbar</Link> */}
-          <Nav className="me-auto">
-            <div className="mee">
-            <Link className="nav" >myTunes</Link>
-            <Link className="nav">Overview</Link>
-            <Link className="nav">Music</Link>
-            <Link className="nav">Video</Link>
-            <Link className="nav">Gift Cards</Link>
-            </div>
+        <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="w-100 justify-content-left">
+
+          <div className="li">
+            <Link to="/" className="any">myTunes</Link>
+            <Link to="/C" className="any">Overview</Link>
+            <Link  className="any ">Music</Link>
+            <Link  className="any ">Video</Link>
+            <Link  className="any ">Gift Cards</Link>
+          </div>
           </Nav>
-        </Container>
-      </Navbar>
-    </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </div>
   );
 };
 
