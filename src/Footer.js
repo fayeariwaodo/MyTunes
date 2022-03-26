@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footer">
-        <div className="footlist">
+        <div className="footlist learn">
           <h4>Shop and Learn</h4>
           <hr />
           <ul>
@@ -15,7 +15,7 @@ const Footer = () => {
             <li>Gift Cards</li>
           </ul>
         </div>
-        <div className="footlist">
+        <div className="footlist store">
           <h4>Orange Store</h4>
           <hr />
           <ul>
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footlist">
+        <div className="footlist edu">
           <h4>Education and Business</h4>
           <hr />
           <ul>
@@ -39,10 +39,10 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="footlist news"> 
           <h4>About Orange</h4>
           <hr />
-          <ul className="footlist">
+          <ul >
             <li>News room</li>
             <li>Orange Leadership</li>
             <li>Investors</li>

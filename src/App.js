@@ -5,6 +5,7 @@ import Home from "./Home.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Component from "./Component";
+import Giftcards from "./Giftcards";
 
 
 function App() {
@@ -14,15 +15,15 @@ function App() {
         <Nav/>
         <switch>
           <Route exact path="/">
-            <Home />
+            <Home/>
           </Route>
 
-          <Route  path="/C">
+          <Route  path="/Component">
             <Component/>
           </Route>
 
           <Route  path="">
-           
+          
           </Route>
 
           <Route  path="">

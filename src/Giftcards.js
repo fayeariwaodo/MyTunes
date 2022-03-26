@@ -25,7 +25,7 @@ const Giftcards = () => {
 
           <hr />
 
-          <div ><Link className="right"><FaChevronRight/>Redeem</Link></div>
+          <div ><Link to="/" className="right"><FaChevronRight/>Redeem</Link></div>
         </div>
       </div>
     </div>

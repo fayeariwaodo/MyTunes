@@ -15,7 +15,7 @@ const Tunesnav = () => {
 
           <div className="li">
             <Link to="/" className="any">myTunes</Link>
-            <Link to="/C" className="any">Overview</Link>
+            <Link to="/Component" className="any">Overview</Link>
             <Link  className="any ">Music</Link>
             <Link  className="any ">Video</Link>
             <Link  className="any ">Gift Cards</Link>
